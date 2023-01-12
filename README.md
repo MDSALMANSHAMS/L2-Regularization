@@ -20,6 +20,6 @@ Where α ∈ [0, ∞) is a hyperparameter, θ denotes all parameters. Assume no 
                                                        
 hgjhggdfdfdgfdgfdgfdgfdgfd
                                                         
-                                                         $\^α/_2w^Tw$ 
+                                                         \int y\, \mathrm{d}x
 
                                                         

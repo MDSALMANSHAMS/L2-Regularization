@@ -14,6 +14,10 @@ Where α ∈ [0, ∞) is a hyperparameter,
 
 θ denotes all parameters, assume no bias parameters : ˜J(w; X, y) =  J(w; X, y) + $\^α/_2w^Tw$, (i.e, 0 = w)
 
+with the corresponding parameter gradient:                ∇w˜J(w; X, y) = αw + ∇wJ(w; X, y),
+
+To take a single gradient step to update the weights:        w ← w − ∈(αw + ∇wJ(w; X, y),
+
                                                        
                                                        
                                                        

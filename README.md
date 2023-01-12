@@ -20,7 +20,8 @@ Where α ∈ [0, ∞) is a hyperparameter, θ denotes all parameters. Assume no 
                                                        
 hgjhggdfdfdgfdgfdgfdgfdgfd
                                                         
-                                                         \pm
+                                                         \cos (2\theta) = \cos^2 \theta - \sin^2 \theta
+
 
 
                                                         

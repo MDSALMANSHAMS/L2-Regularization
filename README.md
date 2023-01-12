@@ -22,12 +22,16 @@ To take a single gradient step to update the weights, we perform this update:
 
                                                          W* ← W − ∈(α.W + ∇w.J(W; X, y),
                                                          
-We can see that the addition of the "weight decay" term has modiﬁed the learning rule to multiplicatively shrink the weight vector (W*) by a constant factor on each step,just before performing the usual gradient update. And this is why "L2-Parameter Norm Penalties" also called as "weight decay".
+We can see that the addition of the "weight decay" term has modiﬁed the learning rule to multiplicatively shrink the weight vector (W*) by a constant factor on each step,just before performing the usual gradient update. And this is why "L2-Parameter Norm Penalties" is also known as "weight decay".
 
-                                                       
-                                                       
-                                                       
-                                                       
+# Result:- 
+
+<img width="407" alt="model summry" src="https://user-images.githubusercontent.com/68110323/212091478-00ccc017-1f63-4c5f-a629-fe1b6e881507.png">
+
+In the model summary, as we can see that the parameters are reduced from "401920" to "1290", which is huge difference. Also made our learning algorithm way simpler/lighter. And "Testing_loss = 0.1382555216550827" & "Testing_accuracy = 0.979200005531311" are also optimised  as shown in the given figure below.
+
+                                                       <img width="284" alt="test loss" src="https://user-images.githubusercontent.com/68110323/212093971-8e9dc1fd-9aff-4b49-a8ae-38243230b0df.png">
+
                                                        
                                                        
 

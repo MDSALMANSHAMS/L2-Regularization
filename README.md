@@ -8,7 +8,7 @@ As we can see in the image, initially the model was overfited. But as the regula
 # L2-Regularization :- 
  This regularization strategy drives the weights closer to the origin1by adding a regularization term "Ω(θ) = $\^1/_2\||W\||_2^2$" to the objective function. L2-Regularization is "Parameter Norm Penalties", which is based on limiting the capacity of models by adding a parameter norm penalty "Ω(θ)" to the objective function "J". We denote the regularizedobjective function by "˜J":
  
-                                          ˜J(θ; X, y) = J(θ; X, y) + α.Ω(θ),
+                                       ˜J(θ; X, y) = J(θ; X, y) + α.Ω(θ),
                                                        
 Where α ∈ [0, ∞) is a hyperparameter, 
 
@@ -16,11 +16,11 @@ Where α ∈ [0, ∞) is a hyperparameter,
 
 with the corresponding parameter gradient:               
 
-                                          ∇w˜J(W; X, y) = α.W + ∇w.J(W; X, y),
+                                       ∇w˜J(W; X, y) = α.W + ∇w.J(W; X, y),
 
 To take a single gradient step to update the weights, we perform this update:   
 
-                                            W* ← W − ∈(α.W + ∇w.J(W; X, y),
+                                         W* ← W − ∈(α.W + ∇w.J(W; X, y),
                                                          
 We can see that the addition of the "weight decay" term has modiﬁed the learning rule to multiplicatively shrink the weight vector (W*) by a constant factor on each step,just before performing the usual gradient update. And this is why "L2-Parameter Norm Penalties" is also known as "weight decay".
 

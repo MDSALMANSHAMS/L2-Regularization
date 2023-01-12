@@ -12,4 +12,4 @@ As we can see in the image, initially the model was overfited. But as the regula
                                                        
 Where α ∈ [0, ∞) is a hyperparameter, θ denotes all parameters. Assume no bias parameters (i.e, 0 = w):
 
-                                                       ˜J(w; X, y) = J(w; X, y) + $\^α/_2 w^T w$ ,
+                                                       ˜J(w; X, y) = J(w; X, y) + $\^α/_2w^Tw$ ,

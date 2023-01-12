@@ -6,4 +6,4 @@
 As we can see in the image, initially the model was overfited. But as the regularization method implemented on the model, complexicity of the model get reduced and the model become simpler with the same dataset.
 
 # L2-Regularization :- 
- This regularization strategy drives the weights closer to the origin1by adding a regularization term Ω(θ) = $\^1/_2\||w\||_2^2$ to the objective function. $\^1/_2$
+ This regularization strategy drives the weights closer to the origin1by adding a regularization term Ω(θ) = $\^1/_2\||w\||_2^2$ to the objective function. L2-Regularization is "Parameter Norm Penalties", which is based on limiting the capacity of models by adding a parameter norm penalty Ω(θ) to the objective function J. We denote the regularizedobjective function by ˜J:

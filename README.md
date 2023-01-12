@@ -6,4 +6,4 @@
 As we can see in the image, initially the model was overfited. But as the regularization method implemented on the model, complexicity of the model get reduced and the model become simpler with the same dataset.
 
 # L2-Regularization :- 
- This regularization strategy drives the weights closer to the origin1by adding a regularization term Ω(θ) =12w22to the objective function. a_k^2 \right
+ This regularization strategy drives the weights closer to the origin1by adding a regularization term Ω(θ) =12w22to the objective function. $\a_k^2 \right

@@ -6,17 +6,21 @@
 As we can see in the image, initially the model was overfited. But as the regularization method implemented on the model, complexicity of the model get reduced and the model become simpler with the same dataset.
 
 # L2-Regularization :- 
- This regularization strategy drives the weights closer to the origin1by adding a regularization term "Ω(θ) = $\^1/_2\||w\||_2^2$" to the objective function. L2-Regularization is "Parameter Norm Penalties", which is based on limiting the capacity of models by adding a parameter norm penalty "Ω(θ)" to the objective function "J". We denote the regularizedobjective function by "˜J":
+ This regularization strategy drives the weights closer to the origin1by adding a regularization term "Ω(θ) = $\^1/_2\||W\||_2^2$" to the objective function. L2-Regularization is "Parameter Norm Penalties", which is based on limiting the capacity of models by adding a parameter norm penalty "Ω(θ)" to the objective function "J". We denote the regularizedobjective function by "˜J":
  
                                                        ˜J(θ; X, y) = J(θ; X, y) + α.Ω(θ),
                                                        
 Where α ∈ [0, ∞) is a hyperparameter, 
 
-θ denotes all parameters, assume no bias parameters : ˜J(w; X, y) =  J(w; X, y) + $\^α/_2w^Tw$, (i.e, 0 = w)
+θ denotes all parameters, assume no bias parameters : ˜J(W; X, y) =  J(W; X, y) + $\^α/_2W^TW$,     (i.e, 0 = w)
 
-with the corresponding parameter gradient:                ∇w˜J(w; X, y) = αw + ∇wJ(w; X, y),
+with the corresponding parameter gradient:               
 
-To take a single gradient step to update the weights:        w ← w − ∈(αw + ∇wJ(w; X, y),
+                                                      ∇w˜J(W; X, y) = α.W + ∇w.J(W; X, y),
+
+To take a single gradient step to update the weights:   
+
+                                                         W* ← W − ∈(α.W + ∇w.J(W; X, y),
 
                                                        
                                                        

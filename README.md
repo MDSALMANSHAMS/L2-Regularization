@@ -11,6 +11,7 @@ As we can see in the image, initially the model was overfited. But as the regula
                                                        ˜J(θ; X, y) = J(θ; X, y) + α.Ω(θ),
                                                        
 Where α ∈ [0, ∞) is a hyperparameter, 
+
 θ denotes all parameters, assume no bias parameters : ˜J(w; X, y) =  J(w; X, y) + $\^α/_2w^Tw$, (i.e, 0 = w)
 
                                                        
@@ -19,9 +20,7 @@ Where α ∈ [0, ∞) is a hyperparameter,
                                                        
                                                        
                                                        
-hgjhggdfdfdgfdgfdgfdgfdgfd
-                                                        
-                                                         \cos (2\theta) = \cos^2 \theta - \sin^2 \theta
+
 
 
 

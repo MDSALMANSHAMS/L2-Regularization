@@ -20,6 +20,7 @@ Where α ∈ [0, ∞) is a hyperparameter, θ denotes all parameters. Assume no 
                                                        
 hgjhggdfdfdgfdgfdgfdgfdgfd
                                                         
-                                                         \int y\, \mathrm{d}x
+                                                         \pm
+
 
                                                         

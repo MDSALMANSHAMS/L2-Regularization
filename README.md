@@ -15,6 +15,11 @@ Where α ∈ [0, ∞) is a hyperparameter, θ denotes all parameters. Assume no 
                                                        ˜J(w; X, y) = $\^α/_2w^Tw$ + J(w; X, y),
                                                        
                                                        
-                                                        $\^α/_2w^Tw$ 
                                                        
                                                        
+                                                       
+hgjhggdfdfdgfdgfdgfdgfdgfd
+                                                        
+                                                         $\^α/_2w^Tw$ 
+
+                                                        

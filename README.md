@@ -18,9 +18,11 @@ with the corresponding parameter gradient:
 
                                                       ∇w˜J(W; X, y) = α.W + ∇w.J(W; X, y),
 
-To take a single gradient step to update the weights:   
+To take a single gradient step to update the weights, we perform this update:   
 
                                                          W* ← W − ∈(α.W + ∇w.J(W; X, y),
+                                                         
+We can see that the addition of the "weight decay" term has modiﬁed the learning rule to multiplicatively shrink the weight vector (W*) by a constant factor on each step,just before performing the usual gradient update. And this is why "L2-Parameter Norm Penalties" also called as "weight decay".
 
                                                        
                                                        

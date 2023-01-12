@@ -3,4 +3,6 @@
 
 ![simpler](https://user-images.githubusercontent.com/68110323/212059129-d5b31442-1945-4fd9-8386-8210b22cd61b.png)
 
+As we can see in the image, initially the model was overfited. But as the regularization method implemented on the model, complexicity of the model get reduced and the model become simpler.
+
 # L2-Regularization :-
